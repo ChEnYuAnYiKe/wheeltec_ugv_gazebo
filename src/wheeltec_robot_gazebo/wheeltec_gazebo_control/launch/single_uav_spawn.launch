@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <launch>
     <!-- Posix SITL environment launch script -->
     <!-- launches PX4 SITL, Gazebo environment, and spawns vehicle -->
@@ -14,7 +15,6 @@
     <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/$(arg vehicle)/$(arg vehicle).sdf"/>
     <env name="PX4_SIM_MODEL" value="$(arg vehicle)" />
     <env name="PX4_ESTIMATOR" value="$(arg est)" />
-
     <!-- PX4 configs -->
     <arg name="interactive" default="true"/>
     <!-- PX4 SITL -->
