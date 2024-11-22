@@ -1,0 +1,3 @@
+<launch>
+    <node name="offboard_node_uav_0" pkg="offboard_pkg" type="offboard_node" output="screen" ns="uav_0"/>
+</launch>

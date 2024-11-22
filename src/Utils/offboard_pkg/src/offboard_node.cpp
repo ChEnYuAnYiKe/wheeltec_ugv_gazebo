@@ -150,7 +150,7 @@ int main(int argc, char **argv)
                 last_request = ros::Time::now();
             }
         }
-        ROS_INFO("k: [%f]", k);
+        // ROS_INFO("k: [%f]", k);
         pose.pose.position.x = des_pos_(0);      
         pose.pose.position.y = des_pos_(1);
         pose.pose.position.z = des_pos_(2);
